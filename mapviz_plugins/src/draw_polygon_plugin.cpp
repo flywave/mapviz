@@ -200,7 +200,7 @@ namespace mapviz_plugins
   {
     if(!this->Visible())
     {
-      ROS_DEBUG("Ignoring mouse press, since draw polygon plugin is hidden");
+      RCLCPP_DEBUG(node_->get_logger(), "Ignoring mouse press, since draw polygon plugin is hidden");
       return false;
     }
     

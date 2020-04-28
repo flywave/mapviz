@@ -110,7 +110,7 @@ bool CoordinatePickerPlugin::eventFilter(QObject* object, QEvent* event)
 {
   if(!this->Visible())
   {
-    ROS_DEBUG("Ignoring mouse event, since coordinate picker plugin is hidden");
+    RCLCPP_DEBUG(node_->get_logger(), "Ignoring mouse event, since coordinate picker plugin is hidden");
     return false;
   }
 
