@@ -1,5 +1,5 @@
 ---
-title: "Disparity"
+name: "Disparity"
 description: "Overlays a [sensor_msgs::DisparityImage](http://docs.ros.org/api/stereo_msgs/html/msg/DisparityImage.html) onto the display using the ''jet'' color map."
 image: "disparity.png"
 parameters:
@@ -18,3 +18,5 @@ parameters:
   - name: Units
     description: (pixels | percent of window)
 ---
+
+# {{ page.plugin }}

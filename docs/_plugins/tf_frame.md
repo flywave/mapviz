@@ -1,5 +1,5 @@
 ---
-title: "TF Frame"
+name: "TF Frame"
 description: "Projects [Tf](http://wiki.ros.org/tf) data into the scene similar to the Odometry plug-in."
 image: ""
 parameters:
@@ -14,3 +14,5 @@ parameters:
   - name: "Buffer Size"
     description: "Size of circular buffer of Tf points"
 ---
+
+# {{ page.plugin }}

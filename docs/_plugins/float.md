@@ -1,5 +1,5 @@
 ---
-title: "Float"
+name: "Float"
 description: "Displays the most recent value from a `std_msgs::Float32/64, marti_common_msgs/Float32/64Stamped` or a `marti_sensor_msgs/Velocity` message at a fixed location on the scene."
 image: ""
 parameters:
@@ -20,3 +20,5 @@ parameters:
   - name: "Postfix"
     description: "Text to append to the displayed value (ex. to show units)"
 ---
+
+# {{ page.plugin }}

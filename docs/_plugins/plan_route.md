@@ -1,6 +1,8 @@
 ---
-title: "Plan Route"
+name: "Plan Route"
 description: ""
 image: ""
 parameters:
 ---
+
+# {{ page.plugin }}

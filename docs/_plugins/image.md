@@ -1,5 +1,5 @@
 ---
-title: "Image"
+name: "Image"
 description: "Overlays a [sensor_msgs::Image](http://docs.ros.org/api/sensor_msgs/html/msg/Image.html) onto the display."
 image: ""
 parameters:
@@ -18,3 +18,5 @@ parameters:
   - name: Units
     description: (pixels | percent of window)
 ---
+
+# {{ page.plugin }}

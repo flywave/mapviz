@@ -1,5 +1,5 @@
 ---
-title: "LaserScan"
+name: "LaserScan"
 description: "Projects a [sensor_msgs::LaserScan](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html) message into the scene."
 image: ""
 parameters:
@@ -18,3 +18,5 @@ parameters:
   - name: "Buffer Size"
     description: "Size of circular buffer of laser scan messages points"
 ---
+
+# {{ page.plugin }}
