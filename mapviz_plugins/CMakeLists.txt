@@ -79,21 +79,15 @@ set(UI_FILES
     ui/image_config.ui
     ui/laserscan_config.ui
     ui/marker_config.ui
-    ui/marti_nav_path_config.ui
-    ui/marti_nav_plan_config.ui
     ui/measuring_config.ui
     # ui/move_base_config.ui
     ui/navsat_config.ui
-    ui/object_config.ui
     ui/occupancy_grid_config.ui
     ui/odometry_config.ui
     ui/path_config.ui
-    ui/plan_route_config.ui
     ui/point_click_publisher_config.ui
     ui/pointcloud2_config.ui
-    ui/pose_array_config.ui
     ui/pose_config.ui
-    ui/pose_publisher_config.ui
     ui/robot_image_config.ui
     ui/route_config.ui
     ui/string_config.ui
@@ -117,18 +111,14 @@ set(SRC_FILES
     src/measuring_plugin.cpp 
     # src/move_base_plugin.cpp
     src/navsat_plugin.cpp
-    src/object_plugin.cpp
     src/occupancy_grid_plugin.cpp
     src/odometry_plugin.cpp 
     src/path_plugin.cpp
     src/placeable_window_proxy.cpp
-    src/plan_route_plugin.cpp
     src/point_click_publisher_plugin.cpp
     src/pointcloud2_plugin.cpp
     src/point_drawing_plugin.cpp
-    src/pose_array_plugin.cpp
     src/pose_plugin.cpp
-    src/pose_publisher_plugin.cpp
     src/robot_image_plugin.cpp
     src/route_plugin.cpp
     src/string_plugin.cpp
@@ -147,24 +137,18 @@ set(HEADER_FILES
     include/${PROJECT_NAME}/grid_plugin.h
     include/${PROJECT_NAME}/image_plugin.h
     include/${PROJECT_NAME}/laserscan_plugin.h
-    include/${PROJECT_NAME}/marti_nav_path_plugin.h
-    include/${PROJECT_NAME}/marti_nav_plan_plugin.h
     include/${PROJECT_NAME}/marker_plugin.h
     include/${PROJECT_NAME}/measuring_plugin.h
     # include/${PROJECT_NAME}/move_base_plugin.h
     include/${PROJECT_NAME}/navsat_plugin.h
-    include/${PROJECT_NAME}/object_plugin.h
     include/${PROJECT_NAME}/occupancy_grid_plugin.h
     include/${PROJECT_NAME}/odometry_plugin.h
     include/${PROJECT_NAME}/path_plugin.h
     include/${PROJECT_NAME}/placeable_window_proxy.h
-    include/${PROJECT_NAME}/plan_route_plugin.h
     include/${PROJECT_NAME}/point_click_publisher_plugin.h
     include/${PROJECT_NAME}/pointcloud2_plugin.h
     include/${PROJECT_NAME}/point_drawing_plugin.h
-    include/${PROJECT_NAME}/pose_array_plugin.h
     include/${PROJECT_NAME}/pose_plugin.h
-    include/${PROJECT_NAME}/pose_publisher_plugin.h
     include/${PROJECT_NAME}/robot_image_plugin.h
     include/${PROJECT_NAME}/route_plugin.h
     include/${PROJECT_NAME}/string_plugin.h

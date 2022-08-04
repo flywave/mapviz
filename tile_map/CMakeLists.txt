@@ -28,6 +28,7 @@ find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(swri_math_util REQUIRED)
 find_package(swri_transform_util REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 
 # Qt 5
@@ -90,6 +91,7 @@ ament_target_dependencies(${PROJECT_NAME}
   pluginlib
   rclcpp
   swri_math_util
+  tf2_geometry_msgs
   swri_transform_util
   tf2
 )

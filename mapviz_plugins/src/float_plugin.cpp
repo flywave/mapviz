@@ -93,13 +93,20 @@ namespace mapviz_plugins
     canvas_ = canvas;
     return true;
   }
+
+  void FloatPlugin::Draw(double, double, double)
+  {
     // This plugin doesn't do any  OpenGL drawing.
   }
 
   void FloatPlugin::Paint(QPainter* painter, double, double, double)
   {
     if (has_message_)
+    {
+      painter->save();
+      painter->resetTransform();
       painter->setFont(font_);
+
       if (!has_painted_)
       {
         // After the first time we get a new message, we do not know how wide it's

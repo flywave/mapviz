@@ -30,6 +30,7 @@ find_package(rclcpp  REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(swri_transform_util  REQUIRED)
 find_package(swri_math_util REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 ### Boost ###
 find_package(Boost REQUIRED filesystem thread)
@@ -83,6 +84,7 @@ ament_target_dependencies(${PROJECT_NAME}
   tf2
   swri_transform_util 
   swri_math_util
+  tf2_geometry_msgs
 )
 if ($ENV{ROS_DISTRO} STREQUAL "kinetic" OR $ENV{ROS_DISTRO} STRLESS "kinetic")
   set_target_properties(${PROJECT_NAME} PROPERTIES 
